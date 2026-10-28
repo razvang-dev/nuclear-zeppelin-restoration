@@ -1,0 +1,74 @@
+[
+  {
+    "copy": [
+      0,
+      1
+    ]
+  },
+  {
+    "write": "loadlocation ch4/locations/outside_office.fwd\n"
+  },
+  {
+    "copy": [
+      2,
+      3
+    ]
+  },
+  {
+    "write": "setlocal office_ch4_map repeat\n"
+  },
+  {
+    "copy": [
+      4,
+      6
+    ]
+  },
+  {
+    "write": "loadlocation ch4/locations/outside_office.fwd\n"
+  },
+  {
+    "copy": [
+      7,
+      10
+    ]
+  },
+  {
+    "write": "loadgadget ch4/cutscenes/map_zoom_diner.gdg\nsetlocal diner_ch4_map repeat\n"
+  },
+  {
+    "copy": [
+      13,
+      15
+    ]
+  },
+  {
+    "write": "loadlocation ch4/locations/outside_diner.fwd\n"
+  },
+  {
+    "copy": [
+      16,
+      19
+    ]
+  },
+  {
+    "write": "loadlocation ch4/locations/outside_mansion.fwd\n"
+  },
+  {
+    "copy": [
+      20,
+      24
+    ]
+  },
+  {
+    "write": "loadlocation ch4/locations/outside_mansion.fwd\n"
+  },
+  {
+    "copy": [
+      25,
+      26
+    ]
+  },
+  {
+    "write": "\n@docks.onClick\nloadlocation ch4/locations/docks.fwd\nlocationoffset -20 0\n\n@morgue.onClick\nloadlocation ch4/locations/morgue.fwd\nlocationoffset -20 0\n\n@tower.onClick\nloadlocation ch4/locations/outside_tower.fwd\nlocationoffset -20 0\n"
+  }
+]

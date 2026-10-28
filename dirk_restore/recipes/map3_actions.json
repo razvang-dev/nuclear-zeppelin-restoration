@@ -1,0 +1,83 @@
+[
+  {
+    "copy": [
+      0,
+      1
+    ]
+  },
+  {
+    "write": "loadlocation ch3/locations/outside_office.fwd\n"
+  },
+  {
+    "copy": [
+      2,
+      3
+    ]
+  },
+  {
+    "write": "setlocal office_ch3_map repeat\n"
+  },
+  {
+    "copy": [
+      4,
+      6
+    ]
+  },
+  {
+    "write": "loadlocation ch3/locations/outside_office.fwd\n"
+  },
+  {
+    "copy": [
+      7,
+      10
+    ]
+  },
+  {
+    "write": "loadlocation ch3/locations/outside_diner.fwd\n"
+  },
+  {
+    "copy": [
+      11,
+      12
+    ]
+  },
+  {
+    "write": "setlocal diner_ch3_map repeat\n"
+  },
+  {
+    "copy": [
+      13,
+      15
+    ]
+  },
+  {
+    "write": "loadlocation ch3/locations/outside_diner.fwd\n"
+  },
+  {
+    "copy": [
+      16,
+      19
+    ]
+  },
+  {
+    "write": "loadlocation ch3/locations/outside_mansion.fwd\n"
+  },
+  {
+    "copy": [
+      20,
+      24
+    ]
+  },
+  {
+    "write": "loadlocation ch3/locations/outside_mansion.fwd\n"
+  },
+  {
+    "copy": [
+      25,
+      26
+    ]
+  },
+  {
+    "write": "\n@docks.onClick\nloadlocation ch3/locations/docks.fwd\nlocationoffset -20 0\n\n@morgue.onClick\nloadlocation ch3/locations/morgue.fwd\nlocationoffset -20 0\n\n@tower_first.onClick\nsetlocal wow_tower open_repeat\nloaddialogue ch3/dialogues/franklins_appartment_dirk_arriving_from_map.dia\n\n@tower_repeat.onClick\nloadlocation ch3/locations/outside_tower.fwd\nlocationoffset -20 0\n"
+  }
+]

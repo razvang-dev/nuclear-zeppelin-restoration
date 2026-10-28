@@ -1,0 +1,31 @@
+{
+  "revision": "R12",
+  "package_sha256": "34d7d73dc9d9e5b2f071eedd4768bdfa9f629de45e0cebd414c40f853814aa06",
+  "main_sha256": "06df70afcb644f19e6521ae4471815263009b45a005873b77ce7f82114b32960",
+  "output_sha256": "b586611a8a848ed109926d7c2c51b5bc3a3beb1fb9a1cfc0da251347d347b365",
+  "output_bytes": 12716,
+  "resources": {
+    "ch2/locations/map.action": "bb1ecdc4d582d56745cc2385ac27bc80273c15ce05d323280d73683334c40020",
+    "ch2/locations/map.fwd": "cff5e3bd549e0bd52dba28f7193a5a1a33bf135658c4cbfeae7efafa6a07e8c1",
+    "ch3/locations/map.action": "f33cafd5ecfb18a9326488c09b1c6d2ed5b0e80a0d85282294bb9b6b423374e8",
+    "ch3/locations/map.fwd": "450ba2e25905b0ae013625fe0544c953a3c45a56180fac28e1aab6535ebbf47e",
+    "ch4/locations/map.action": "cb158d3dfd32665ddf8384f7c383ade7978d3bcb2f4b862301ba369edf7aaa6e",
+    "ch4/locations/map.fwd": "1bdf18cfc5cab7ea25550186497cfa15517b80c1186addc8218083ca7600f607",
+    "ch5/locations/zepelin_trap.action": "e51f13a5ee6c57e27622ae4a967f1bdb46c2f95cd9702d5a5d51bd0fbc1e9f8e",
+    "ch5/locations/zepelin_trap.fwd": "f7457966480a342e5c93cade9cdd0126b52c3fc83b844ce06648b041c0923311",
+    "ch6/dialogues/zeppelin_droid_play_correct_s.dia": "bdbfd38ca47cc558ba15466f94523db0132926f5a82e634001c834180ab638c4",
+    "ch6/dialogues/zeppelin_droid_play_correct_st.dia": "0c9dd7f77fad620bab73f76763be35891661a637081a9455134b9988c5e57624",
+    "ch6/dialogues/zeppelin_droid_play_correct_st_cd.dia": "0e991a0d02d673e4f6b9657e198cfb31b79ec6fc48106b92f7e6e6d15a967390",
+    "ch6/dialogues/zeppelin_droid_play_correct_st_cu_dn.dia": "ddde3b591b0bd8b34b3235bfde53d301f3465afe62a86156022c3ffa8236ce0b",
+    "ch6/dialogues/zeppelin_droid_play_first_s.dia": "93fb70bd27b1a5bcedbc7dec782088212ce61966c37d3cc48ce468d9fbf237b5",
+    "ch6/dialogues/zeppelin_droid_play_left_s.dia": "7886a7348c0b2375d9ca5a42a5df16cc8d2ed9382f10cbba3bf3bafc395553aa",
+    "ch6/dialogues/zeppelin_droid_play_right_down_s.dia": "273548b141c7865bc993e8ed760dd0bce39e9f379a9772fb79f9e8c6c0cfc33e",
+    "ch6/dialogues/zeppelin_droid_play_right_up_s.dia": "f50cb7c9e97680ca7c49c3719532d629c22a0b32d6dcf434db27a99c382fdf99",
+    "ch6/dialogues/zeppelin_droid_play_second_s.dia": "b290728358e100c0d9ba592b5c89c07097ac48168167cf9a645d7d534fa217d7",
+    "ch6/dialogues/zeppelin_droid_play_third_s.dia": "15dbe31c98e0df6f0fbaf6dbe80191e296f06e867a4c2bf902a2758ac699b807",
+    "ch6/locations/zeppelin_control_room.action": "374719c09329269ff69140279ff754142ebc81ab08c3df02b054d164ab0af9a8",
+    "ch6/locations/zeppelin_control_room.fwd": "5247ef8c57a12fba7d39e2212d767a67f3d220e84b1fa9e136e3be138e1e8736",
+    "chapters/chapter2.action": "9b8af0af4998adfd09fd77b513503aeaaad497afe1cd468ae38ef7d56978e1bc",
+    "chapters/chapter2.fwd": "d1fdb05443fb28ff43e30e075dc4d1281ce84a8b84e01029363eccd37d6871ab"
+  }
+}

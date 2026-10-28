@@ -1,0 +1,418 @@
+{
+  "from": [],
+  "children": [
+    {
+      "from": [
+        0
+      ],
+      "children": [
+        {
+          "from": [
+            0,
+            0
+          ],
+          "children": [
+            {
+              "from": [
+                0,
+                0,
+                0
+              ]
+            },
+            {
+              "from": [
+                0,
+                0,
+                1
+              ]
+            },
+            {
+              "from": [
+                0,
+                0,
+                2
+              ]
+            },
+            {
+              "from": [
+                0,
+                0,
+                3
+              ]
+            },
+            {
+              "from": [
+                0,
+                0,
+                4
+              ]
+            },
+            {
+              "from": [
+                0,
+                0,
+                4
+              ],
+              "set": {
+                "var": "roadworker^pothole"
+              },
+              "children": [
+                {
+                  "from": [
+                    0,
+                    0,
+                    4,
+                    0
+                  ],
+                  "set": {
+                    "value": "pothole,hole"
+                  },
+                  "children": [
+                    {
+                      "from": [
+                        0,
+                        0,
+                        5,
+                        0,
+                        1
+                      ],
+                      "set": {
+                        "name": "office_worker_fill_hole"
+                      }
+                    }
+                  ]
+                },
+                {
+                  "from": [
+                    0,
+                    0,
+                    4,
+                    0
+                  ],
+                  "set": {
+                    "value": "pothole,tub"
+                  },
+                  "children": [
+                    {
+                      "from": [
+                        0,
+                        0,
+                        5,
+                        0,
+                        1
+                      ],
+                      "set": {
+                        "name": "office_worker_fill_tub"
+                      }
+                    }
+                  ]
+                },
+                {
+                  "from": [
+                    0,
+                    0,
+                    4,
+                    0
+                  ],
+                  "set": {
+                    "value": "!pothole,*"
+                  },
+                  "children": [
+                    {
+                      "from": [
+                        0,
+                        0,
+                        4
+                      ],
+                      "set": {
+                        "var": "office_ch2_map"
+                      },
+                      "children": [
+                        {
+                          "from": [
+                            0,
+                            0,
+                            5,
+                            0
+                          ],
+                          "children": [
+                            {
+                              "from": [
+                                0,
+                                0,
+                                5,
+                                0,
+                                0
+                              ]
+                            },
+                            {
+                              "from": [
+                                0,
+                                0,
+                                5,
+                                0,
+                                1
+                              ]
+                            }
+                          ]
+                        },
+                        {
+                          "from": [
+                            0,
+                            0,
+                            5,
+                            1
+                          ],
+                          "children": [
+                            {
+                              "from": [
+                                0,
+                                0,
+                                5,
+                                1,
+                                0
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "from": [
+                0,
+                0,
+                4
+              ],
+              "set": {
+                "var": "diner_ch2_map"
+              },
+              "children": [
+                {
+                  "from": [
+                    0,
+                    0,
+                    5,
+                    0
+                  ],
+                  "children": [
+                    {
+                      "from": [
+                        0,
+                        0,
+                        6,
+                        0,
+                        0
+                      ]
+                    },
+                    {
+                      "from": [
+                        0,
+                        0,
+                        6,
+                        0,
+                        1
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "from": [
+                    0,
+                    0,
+                    5,
+                    1
+                  ],
+                  "children": [
+                    {
+                      "from": [
+                        0,
+                        0,
+                        6,
+                        1,
+                        0
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "from": [
+                0,
+                0,
+                4
+              ],
+              "set": {
+                "var": "docksOpened"
+              },
+              "children": [
+                {
+                  "from": [
+                    0,
+                    0,
+                    4,
+                    0
+                  ],
+                  "set": {
+                    "value": "first"
+                  },
+                  "children": [
+                    {
+                      "from": [
+                        0,
+                        0,
+                        4,
+                        0,
+                        0
+                      ],
+                      "set": {
+                        "xydepth": [
+                          190,
+                          410,
+                          0
+                        ],
+                        "text": "docks"
+                      }
+                    },
+                    {
+                      "from": [
+                        0,
+                        0,
+                        4,
+                        0,
+                        1
+                      ],
+                      "set": {
+                        "xydepth": [
+                          187,
+                          402,
+                          0
+                        ]
+                      }
+                    },
+                    {
+                      "from": [
+                        0,
+                        0,
+                        0
+                      ],
+                      "set": {
+                        "image": "img/locations/map/docks",
+                        "xydepth": [
+                          105,
+                          375,
+                          8
+                        ],
+                        "selected": "img/locations/map/docks"
+                      }
+                    },
+                    {
+                      "from": [
+                        0,
+                        0,
+                        4,
+                        0,
+                        3
+                      ],
+                      "set": {
+                        "point": [
+                          139,
+                          403,
+                          44,
+                          48
+                        ],
+                        "name": "docks_first",
+                        "rect": [
+                          76,
+                          311,
+                          151,
+                          166
+                        ]
+                      }
+                    }
+                  ]
+                },
+                {
+                  "from": [
+                    0,
+                    0,
+                    5,
+                    1
+                  ],
+                  "children": [
+                    {
+                      "from": [
+                        0,
+                        0,
+                        4,
+                        0,
+                        0
+                      ],
+                      "set": {
+                        "xydepth": [
+                          190,
+                          410,
+                          0
+                        ],
+                        "text": "docks"
+                      }
+                    },
+                    {
+                      "from": [
+                        0,
+                        0,
+                        0
+                      ],
+                      "set": {
+                        "image": "img/locations/map/docks",
+                        "xydepth": [
+                          105,
+                          375,
+                          8
+                        ],
+                        "selected": "img/locations/map/docks"
+                      }
+                    },
+                    {
+                      "from": [
+                        0,
+                        0,
+                        4,
+                        0,
+                        3
+                      ],
+                      "set": {
+                        "point": [
+                          139,
+                          403,
+                          44,
+                          48
+                        ],
+                        "name": "docks_repeat",
+                        "rect": [
+                          76,
+                          311,
+                          151,
+                          166
+                        ]
+                      }
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "from": [
+        1
+      ]
+    }
+  ]
+}

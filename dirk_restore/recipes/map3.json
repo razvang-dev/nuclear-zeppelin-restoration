@@ -1,0 +1,395 @@
+{
+  "from": [],
+  "children": [
+    {
+      "from": [
+        0
+      ],
+      "children": [
+        {
+          "from": [
+            0,
+            0
+          ],
+          "children": [
+            {
+              "from": [
+                0,
+                0,
+                0
+              ]
+            },
+            {
+              "from": [
+                0,
+                0,
+                1
+              ]
+            },
+            {
+              "from": [
+                0,
+                0,
+                2
+              ]
+            },
+            {
+              "from": [
+                0,
+                0,
+                3
+              ]
+            },
+            {
+              "from": [
+                0,
+                0,
+                4
+              ]
+            },
+            {
+              "from": [
+                0,
+                0,
+                4
+              ],
+              "set": {
+                "var": "office_ch3_map"
+              },
+              "children": [
+                {
+                  "from": [
+                    0,
+                    0,
+                    5,
+                    0
+                  ]
+                },
+                {
+                  "from": [
+                    0,
+                    0,
+                    5,
+                    1
+                  ]
+                }
+              ]
+            },
+            {
+              "from": [
+                0,
+                0,
+                4
+              ],
+              "set": {
+                "var": "diner_ch3_map"
+              },
+              "children": [
+                {
+                  "from": [
+                    0,
+                    0,
+                    6,
+                    0
+                  ]
+                },
+                {
+                  "from": [
+                    0,
+                    0,
+                    6,
+                    1
+                  ]
+                }
+              ]
+            },
+            {
+              "from": [
+                0,
+                0,
+                4,
+                0,
+                0
+              ],
+              "set": {
+                "xydepth": [
+                  190,
+                  410,
+                  0
+                ],
+                "text": "docks"
+              }
+            },
+            {
+              "from": [
+                0,
+                0,
+                0
+              ],
+              "set": {
+                "image": "img/locations/map/docks",
+                "xydepth": [
+                  105,
+                  375,
+                  8
+                ],
+                "selected": "img/locations/map/docks"
+              }
+            },
+            {
+              "from": [
+                0,
+                0,
+                4,
+                0,
+                3
+              ],
+              "set": {
+                "point": [
+                  139,
+                  403,
+                  44,
+                  48
+                ],
+                "name": "docks",
+                "rect": [
+                  76,
+                  311,
+                  151,
+                  166
+                ]
+              }
+            },
+            {
+              "from": [
+                0,
+                0,
+                4,
+                0,
+                0
+              ],
+              "set": {
+                "xydepth": [
+                  570,
+                  320,
+                  0
+                ],
+                "text": "morgue"
+              }
+            },
+            {
+              "from": [
+                0,
+                0,
+                0
+              ],
+              "set": {
+                "image": "img/locations/map/morgue_hospital",
+                "xydepth": [
+                  548,
+                  252,
+                  8
+                ],
+                "selected": "img/locations/map/morgue_hospital"
+              }
+            },
+            {
+              "from": [
+                0,
+                0,
+                4,
+                0,
+                3
+              ],
+              "set": {
+                "point": [
+                  595,
+                  290,
+                  44,
+                  48
+                ],
+                "name": "morgue",
+                "rect": [
+                  548,
+                  252,
+                  95,
+                  105
+                ]
+              }
+            },
+            {
+              "from": [
+                0,
+                0,
+                4
+              ],
+              "set": {
+                "var": "wow_tower"
+              },
+              "children": [
+                {
+                  "from": [
+                    0,
+                    0,
+                    4,
+                    0
+                  ],
+                  "set": {
+                    "value": "open_first"
+                  },
+                  "children": [
+                    {
+                      "from": [
+                        0,
+                        0,
+                        4,
+                        0,
+                        0
+                      ],
+                      "set": {
+                        "xydepth": [
+                          475,
+                          460,
+                          0
+                        ],
+                        "text": "wow_tower"
+                      }
+                    },
+                    {
+                      "from": [
+                        0,
+                        0,
+                        0
+                      ],
+                      "set": {
+                        "image": "img/locations/map/tower",
+                        "xydepth": [
+                          391,
+                          114,
+                          8
+                        ],
+                        "selected": "img/locations/map/tower"
+                      }
+                    },
+                    {
+                      "from": [
+                        0,
+                        0,
+                        4,
+                        0,
+                        1
+                      ],
+                      "set": {
+                        "xydepth": [
+                          540,
+                          425,
+                          0
+                        ]
+                      }
+                    },
+                    {
+                      "from": [
+                        0,
+                        0,
+                        4,
+                        0,
+                        3
+                      ],
+                      "set": {
+                        "point": [
+                          505,
+                          410,
+                          44,
+                          48
+                        ],
+                        "name": "tower_first",
+                        "rect": [
+                          470,
+                          320,
+                          70,
+                          181
+                        ]
+                      }
+                    }
+                  ]
+                },
+                {
+                  "from": [
+                    0,
+                    0,
+                    4,
+                    1
+                  ],
+                  "children": [
+                    {
+                      "from": [
+                        0,
+                        0,
+                        4,
+                        0,
+                        0
+                      ],
+                      "set": {
+                        "xydepth": [
+                          475,
+                          460,
+                          0
+                        ],
+                        "text": "wow_tower"
+                      }
+                    },
+                    {
+                      "from": [
+                        0,
+                        0,
+                        0
+                      ],
+                      "set": {
+                        "image": "img/locations/map/tower",
+                        "xydepth": [
+                          391,
+                          114,
+                          8
+                        ],
+                        "selected": "img/locations/map/tower"
+                      }
+                    },
+                    {
+                      "from": [
+                        0,
+                        0,
+                        4,
+                        0,
+                        3
+                      ],
+                      "set": {
+                        "point": [
+                          505,
+                          410,
+                          44,
+                          48
+                        ],
+                        "name": "tower_repeat",
+                        "rect": [
+                          470,
+                          320,
+                          70,
+                          181
+                        ]
+                      }
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "from": [
+        1
+      ]
+    }
+  ]
+}

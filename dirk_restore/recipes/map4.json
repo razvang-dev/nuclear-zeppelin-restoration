@@ -1,0 +1,350 @@
+{
+  "from": [],
+  "children": [
+    {
+      "from": [
+        0
+      ],
+      "children": [
+        {
+          "from": [
+            0,
+            0
+          ],
+          "children": [
+            {
+              "from": [
+                0,
+                0,
+                0
+              ]
+            },
+            {
+              "from": [
+                0,
+                0,
+                1
+              ]
+            },
+            {
+              "from": [
+                0,
+                0,
+                2
+              ]
+            },
+            {
+              "from": [
+                0,
+                0,
+                3
+              ]
+            },
+            {
+              "from": [
+                0,
+                0,
+                4
+              ],
+              "children": [
+                {
+                  "from": [
+                    0,
+                    0,
+                    4,
+                    0
+                  ],
+                  "children": [
+                    {
+                      "from": [
+                        0,
+                        0,
+                        4,
+                        0,
+                        0
+                      ]
+                    },
+                    {
+                      "from": [
+                        0,
+                        0,
+                        4,
+                        0,
+                        1
+                      ],
+                      "set": {
+                        "xydepth": [
+                          148,
+                          235,
+                          0
+                        ]
+                      }
+                    },
+                    {
+                      "from": [
+                        0,
+                        0,
+                        4,
+                        0,
+                        2
+                      ]
+                    },
+                    {
+                      "from": [
+                        0,
+                        0,
+                        4,
+                        0,
+                        3
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "from": [
+                    0,
+                    0,
+                    4,
+                    1
+                  ]
+                }
+              ]
+            },
+            {
+              "from": [
+                0,
+                0,
+                4
+              ],
+              "set": {
+                "var": "office_ch4_map"
+              },
+              "children": [
+                {
+                  "from": [
+                    0,
+                    0,
+                    5,
+                    0
+                  ]
+                },
+                {
+                  "from": [
+                    0,
+                    0,
+                    5,
+                    1
+                  ]
+                }
+              ]
+            },
+            {
+              "from": [
+                0,
+                0,
+                4
+              ],
+              "set": {
+                "var": "diner_ch4_map"
+              },
+              "children": [
+                {
+                  "from": [
+                    0,
+                    0,
+                    6,
+                    0
+                  ]
+                },
+                {
+                  "from": [
+                    0,
+                    0,
+                    6,
+                    1
+                  ]
+                }
+              ]
+            },
+            {
+              "from": [
+                0,
+                0,
+                4,
+                0,
+                0
+              ],
+              "set": {
+                "xydepth": [
+                  185,
+                  410,
+                  0
+                ],
+                "text": "docks"
+              }
+            },
+            {
+              "from": [
+                0,
+                0,
+                0
+              ],
+              "set": {
+                "image": "img/locations/map/docks",
+                "xydepth": [
+                  105,
+                  375,
+                  8
+                ],
+                "selected": "img/locations/map/docks"
+              }
+            },
+            {
+              "from": [
+                0,
+                0,
+                4,
+                0,
+                3
+              ],
+              "set": {
+                "point": [
+                  139,
+                  403,
+                  44,
+                  48
+                ],
+                "name": "docks",
+                "rect": [
+                  76,
+                  311,
+                  151,
+                  166
+                ]
+              }
+            },
+            {
+              "from": [
+                0,
+                0,
+                4,
+                0,
+                0
+              ],
+              "set": {
+                "xydepth": [
+                  565,
+                  315,
+                  0
+                ],
+                "text": "morgue"
+              }
+            },
+            {
+              "from": [
+                0,
+                0,
+                0
+              ],
+              "set": {
+                "image": "img/locations/map/morgue_hospital",
+                "xydepth": [
+                  548,
+                  252,
+                  8
+                ],
+                "selected": "img/locations/map/morgue_hospital"
+              }
+            },
+            {
+              "from": [
+                0,
+                0,
+                4,
+                0,
+                3
+              ],
+              "set": {
+                "point": [
+                  595,
+                  290,
+                  44,
+                  48
+                ],
+                "name": "morgue",
+                "rect": [
+                  548,
+                  252,
+                  95,
+                  105
+                ]
+              }
+            },
+            {
+              "from": [
+                0,
+                0,
+                4,
+                0,
+                0
+              ],
+              "set": {
+                "xydepth": [
+                  460,
+                  455,
+                  0
+                ],
+                "text": "wow_tower"
+              }
+            },
+            {
+              "from": [
+                0,
+                0,
+                0
+              ],
+              "set": {
+                "image": "img/locations/map/tower",
+                "xydepth": [
+                  391,
+                  114,
+                  8
+                ],
+                "selected": "img/locations/map/tower"
+              }
+            },
+            {
+              "from": [
+                0,
+                0,
+                4,
+                0,
+                3
+              ],
+              "set": {
+                "point": [
+                  505,
+                  410,
+                  44,
+                  48
+                ],
+                "name": "tower",
+                "rect": [
+                  470,
+                  320,
+                  70,
+                  181
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "from": [
+        1
+      ]
+    }
+  ]
+}

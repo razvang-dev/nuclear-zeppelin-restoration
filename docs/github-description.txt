@@ -1,0 +1,1 @@
+Native resource restoration for Dirk Dagger and the Nuclear Zeppelin (N-Gage 2.0). Reconstructs chapter controllers, scene graphs and animation integration from your own original game package.
