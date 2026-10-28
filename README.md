@@ -88,5 +88,3 @@ The inspection command reads the archive directory, expands its resources and li
 ## Source and distribution scope
 
 Read [provenance](docs/provenance.md) before adding files or making a release. Locally generated outputs contain game-derived resources and are not public source artifacts. Do not commit them. Original project source and documentation are available under the [MIT License](LICENSE), credited to **RazvanG**. See [credits and attribution](CREDITS.md). This license grants no rights in original game content.
-
-For publication instructions and the final source-only review checklist, see [PUBLISHING.md](PUBLISHING.md).
